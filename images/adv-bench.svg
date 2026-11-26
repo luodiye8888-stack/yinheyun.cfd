@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#090915"/>
+      <stop offset="100%" stop-color="#171738"/>
+    </linearGradient>
+    <linearGradient id="cyanBar" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="pinkBar" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#be185d"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" rx="16" fill="url(#bg1)"/>
+  <g stroke="#22d3ee" stroke-opacity="0.14" stroke-width="1">
+    <line x1="48" y1="80" x2="592" y2="80"/>
+    <line x1="48" y1="140" x2="592" y2="140"/>
+    <line x1="48" y1="200" x2="592" y2="200"/>
+    <line x1="48" y1="260" x2="592" y2="260"/>
+  </g>
+  <rect x="86" y="110" width="54" height="170" rx="8" fill="url(#cyanBar)"/>
+  <rect x="170" y="92" width="54" height="188" rx="8" fill="url(#pinkBar)"/>
+  <rect x="254" y="124" width="54" height="156" rx="8" fill="url(#cyanBar)"/>
+  <rect x="366" y="102" width="54" height="178" rx="8" fill="url(#pinkBar)"/>
+  <rect x="450" y="84" width="54" height="196" rx="8" fill="url(#cyanBar)"/>
+  <path d="M80 230 Q180 120 280 155 T480 95 T580 112" fill="none" stroke="#f472b6" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="197" cy="92" r="7" fill="#ffffff"/>
+  <circle cx="477" cy="84" r="7" fill="#ffffff"/>
+  <text x="48" y="48" fill="#22d3ee" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700">三网晚高峰实时吞吐量测速图谱</text>
+  <text x="88" y="314" fill="#cbd5e1" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16">电信专线</text>
+  <text x="172" y="314" fill="#cbd5e1" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16">联通高速</text>
+  <text x="256" y="314" fill="#cbd5e1" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16">移动直连</text>
+  <text x="368" y="314" fill="#cbd5e1" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16">香港核心</text>
+  <text x="452" y="314" fill="#cbd5e1" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16">日本东京</text>
+</svg>

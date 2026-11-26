@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#090915"/>
+      <stop offset="100%" stop-color="#111b33"/>
+    </linearGradient>
+    <linearGradient id="track3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="50%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" rx="16" fill="url(#bg3)"/>
+  <path d="M64 240 C160 110, 260 270, 356 150 C430 60, 510 190, 576 116" fill="none" stroke="url(#track3)" stroke-width="5" stroke-linecap="round"/>
+  <path d="M64 260 C175 180, 290 290, 410 185 C485 120, 535 160, 576 144" fill="none" stroke="#06b6d4" stroke-opacity="0.4" stroke-width="2" stroke-dasharray="6 6"/>
+  <circle cx="64" cy="240" r="10" fill="#22d3ee"/>
+  <circle cx="218" cy="194" r="9" fill="#ec4899"/>
+  <circle cx="356" cy="150" r="11" fill="#ffffff" stroke="#ec4899" stroke-width="4"/>
+  <circle cx="576" cy="116" r="10" fill="#22d3ee"/>
+  <text x="48" y="50" fill="#f472b6" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700">毫秒级量子星轨智能路由调度</text>
+  <text x="48" y="308" fill="#cbd5e1" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16">本地接入点 → 专线中继节点 → 亚太与欧美低延迟落地</text>
+</svg>

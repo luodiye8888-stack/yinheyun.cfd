@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>地区代理可用性自检指南 - 银河云备用测试站</title>
+  <meta name="description" content="银河云备用测试站地区代理可用性自检说明，帮助用户快速区分网络管理员主动禁止代理连接与中国防火长城（GFW）跨境连接限制，并提供官方检测中心入口。">
+  <link rel="canonical" href="https://yinheyun.cfd/check.html">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand-logo" href="index.html">
+        <span class="brand-badge">银</span>
+        <span>银河云测速备用站</span>
+        <span class="brand-tag">地区检测</span>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">返回首页</a>
+        <a href="node-brief-9t1r.html">推荐资讯</a>
+        <a href="https://yinheyun.biz/" target="_blank">官方核心主站</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html">首页</a> / 地区代理可用性自检指南</div>
+      <h1>如何判断当前网络地区是否适合使用代理加速？</h1>
+      <div class="article-meta">
+        <span>所属栏目：网络诊断与容灾自检</span>
+        <span>适用范围：家庭宽带 / 校园网 / 企业内网 / 移动蜂窝</span>
+      </div>
+    </div>
+  </section>
+
+  <main class="container">
+    <article class="article-body">
+      <p>在日常排查跨境网络加速故障时，许多用户一旦遇到“节点全部超时”或“节点列表刷新失败”，往往会误以为线路彻底不可用。事实上，绝大多数无法握手的情况可以清晰地归为以下两种底层限制类型，只需通过简单的交叉对比即可准确定位。</p>
+
+      <h2>情况一：网络管理员主动禁止代理连接</h2>
+      <p>此类限制高发于高校校园网、企业办公局域网、政企专网以及部分酒店公共无线网络。为了保障内网审计合规或节省出口带宽，网络管理员通常会在局域网出口防火墙或行为管理设备上部署策略，主动阻断非常规海外端口、拦截加密隧道特征，或屏蔽代理客户端的配置同步域名。</p>
+      <ul>
+        <li><strong>典型特征：</strong>连接该局域网时全部节点超时，但断开无线局域网、切回手机 4G 或 5G 移动流量后，同一组节点立即秒连且测速正常。</li>
+        <li><strong>应对建议：</strong>优先尝试使用标准 443 加密端口的伪装节点，避免在受严格审计的企业办公电脑上强行绕过内网合规策略。</li>
+      </ul>
+
+      <h2>情况二：受到中国防火长城（GFW）的跨境连接限制</h2>
+      <p>在普通家庭宽带（电信、联通、移动）及个人移动蜂窝网络环境下，直接访问海外主流网站或裸连未加密的海外节点，会受到中国防火长城（GFW）的跨境连接限制，表现为域名解析污染、连接重置或高峰期国际出口严重丢包。</p>
+      <ul>
+        <li><strong>典型特征：</strong>直连海外站点无法打开，或使用老旧明文协议节点时反复断流、延迟剧烈抖动；而切换至具备合规加密与内网中继专线的银河云节点后，三网延迟可迅速回落至 30 至 60 毫秒区间。</li>
+        <li><strong>应对建议：</strong>保持银河云官方专属客户端与节点列表处于最新版本，一键登录即用并启用内置自动故障转移与规则分流功能，让国内流量直连、海外请求走低延迟专线；后续客户端形态与多元接入方式将随产品演进持续更新，具体以官方控制面板最新公告为准。</li>
+      </ul>
+
+      <div class="callout-box">
+        <strong>快速前往官方检测与核心主站：</strong>如需获取实时地区适配报告与完整节点状态公告，请直接访问银河云官方核心主站与检测中心。
+      </div>
+
+      <div class="article-cta">
+        <p style="margin-bottom:16px;color:#ffffff;font-weight:700;">立即开展在线自检或返回官方主站</p>
+        <div class="hub-actions" style="justify-content:center;">
+          <a class="btn btn-cyber" href="https://yinheyun.biz/check.html" target="_blank">前往官方地区检测中心</a>
+          <a class="btn btn-primary" href="https://yinheyun.biz/" target="_blank">返回银河云核心主站</a>
+          <a class="btn btn-outline" href="https://cola.flyvaff.com/#/register/?code=ZUwI0gXX" rel="nofollow" target="_blank">注册体验高速专线</a>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">© 银河云备用测试站 版权所有</div>
+      <div class="footer-links">
+        <a href="sitemap.html" target="_blank">网站地图</a>
+        <a href="about.html" target="_blank">关于我们</a>
+        <a href="terms.html" target="_blank">服务条款</a>
+        <a href="privacy.html" target="_blank">隐私政策</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360">
+  <defs>
+    <linearGradient id="bg4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b091b"/>
+      <stop offset="100%" stop-color="#1b1438"/>
+    </linearGradient>
+    <linearGradient id="playGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" rx="16" fill="url(#bg4)"/>
+  <rect x="64" y="68" width="512" height="224" rx="16" fill="#13132b" stroke="#06b6d4" stroke-width="2"/>
+  <circle cx="320" cy="176" r="52" fill="url(#playGrad)"/>
+  <polygon points="306,152 350,176 306,200" fill="#ffffff"/>
+  <rect x="96" y="256" width="448" height="10" rx="5" fill="#1e293b"/>
+  <rect x="96" y="256" width="336" height="10" rx="5" fill="url(#playGrad)"/>
+  <text x="96" y="106" fill="#22d3ee" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="700">超清流媒体 4K 与 8K 缓冲实测解锁</text>
+  <text x="96" y="328" fill="#cbd5e1" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15">奈飞自制与非自制剧 · 迪士尼超清影院 · 油管高码率秒开</text>
+</svg>
